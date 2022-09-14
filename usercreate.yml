@@ -1,13 +1,6 @@
-# Kullanici degiskenlerini iceren dosyadir.
-# Yorum satiri ile gosterilen sablon doldurularak istenilen kadar kullanici eklenebilir.
 base_users:
-    user1:
-        name: oguntest
-        group: oguntest
-        shell: /bin/bash
-        state: present
-#    userX:
-#        name:
-#        group:
-#        shell:
-#        state:
+  user1:
+    name: ogun2
+    group: ogun2
+    shell: /bin/bash
+    state: present
